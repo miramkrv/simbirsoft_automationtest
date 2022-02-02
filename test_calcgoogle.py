@@ -8,6 +8,5 @@ searchbox = driver.find_element_by_xpath('/html/body/div[1]/div[3]/form/div[1]/d
 searchbox.send_keys('калькулятор')
 searchButton = driver.find_element_by_name('btnK')
 searchButton.click()
-searchbox = driver.find_elements_by_id('cwos')
-searchbox.send_keys('1')
+
    
